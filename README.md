@@ -1,3 +1,3 @@
 ### Structural Bioinformatics and Drug Design
 
-Homeworks
+Homeworks for the course.
