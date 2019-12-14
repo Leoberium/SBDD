@@ -4,8 +4,8 @@ test
 pres
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-'8 - Molecular Dynamics/logs'
-'8 - Molecular Dynamics/mdresult'
+8*-*Molecular Dynamics/logs
+8*-*Molecular Dynamics/mdresult
 
 # Files
 **.png
