@@ -1,0 +1,86 @@
+                         :-)  G  R  O  M  A  C  S  (-:
+
+                   Great Red Oystrich Makes All Chemists Sane
+
+                            :-)  VERSION 4.6.5  (-:
+
+        Contributions from Mark Abraham, Emile Apol, Rossen Apostolov, 
+           Herman J.C. Berendsen, Aldert van Buuren, Pär Bjelkmar,  
+     Rudi van Drunen, Anton Feenstra, Gerrit Groenhof, Christoph Junghans, 
+        Peter Kasson, Carsten Kutzner, Per Larsson, Pieter Meulenhoff, 
+           Teemu Murtola, Szilard Pall, Sander Pronk, Roland Schulz, 
+                Michael Shirts, Alfons Sijbers, Peter Tieleman,
+
+               Berk Hess, David van der Spoel, and Erik Lindahl.
+
+       Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+         Copyright (c) 2001-2012,2013, The GROMACS development team at
+        Uppsala University & The Royal Institute of Technology, Sweden.
+            check out http://www.gromacs.org for more information.
+
+         This program is free software; you can redistribute it and/or
+       modify it under the terms of the GNU Lesser General Public License
+        as published by the Free Software Foundation; either version 2.1
+             of the License, or (at your option) any later version.
+
+                                :-)  genion  (-:
+
+Option     Filename  Type         Description
+------------------------------------------------------------
+  -s      pep_s.tpr  Input        Run input file: tpr tpb tpa
+  -n      index.ndx  Input, Opt.  Index file
+  -o     pep_si.gro  Output       Structure file: gro g96 pdb etc.
+  -p        pep.top  In/Out, Opt! Topology file
+
+Option       Type   Value   Description
+------------------------------------------------------
+-[no]h       bool   no      Print help info and quit
+-[no]version bool   no      Print version info and quit
+-nice        int    19      Set the nicelevel
+-np          int    1       Number of positive ions
+-pname       string NA      Name of the positive ion
+-pq          int    1       Charge of the positive ion
+-nn          int    0       Number of negative ions
+-nname       string CL      Name of the negative ion
+-nq          int    -1      Charge of the negative ion
+-rmin        real   0.6     Minimum distance between ions
+-seed        int    1993    Seed for random number generator
+-conc        real   0       Specify salt concentration (mol/liter). This will
+                            add sufficient ions to reach up to the specified
+                            concentration as computed from the volume of the
+                            cell in the input .tpr file. Overrides the -np
+                            and -nn options.
+-[no]neutral bool   no      This option will add enough ions to neutralize
+                            the system. These ions are added on top of those
+                            specified with -np/-nn or -conc. 
+
+Reading file pep_s.tpr, VERSION 4.6.5 (single precision)
+Reading file pep_s.tpr, VERSION 4.6.5 (single precision)
+Will try to add 1 NA ions and 0 CL ions.
+Select a continuous group of solvent molecules
+Group     0 (         System) has  5655 elements
+Group     1 (        Protein) has   243 elements
+Group     2 (      Protein-H) has   127 elements
+Group     3 (        C-alpha) has    15 elements
+Group     4 (       Backbone) has    45 elements
+Group     5 (      MainChain) has    61 elements
+Group     6 (   MainChain+Cb) has    76 elements
+Group     7 (    MainChain+H) has    78 elements
+Group     8 (      SideChain) has   165 elements
+Group     9 (    SideChain-H) has    66 elements
+Group    10 (    Prot-Masses) has   243 elements
+Group    11 (    non-Protein) has  5412 elements
+Group    12 (          Other) has  5412 elements
+Group    13 (            FAM) has  5412 elements
+Select a group: 13
+Selected 13: 'FAM'
+Number of (6-atomic) solvent molecules: 902
+
+Processing topology
+Replacing 1 solute molecules in topology file (pep.top)  by 1 NA and 0 CL ions.
+
+Back Off! I just backed up pep.top to ./#pep.top.2#
+Replacing solvent molecule 105 (atom 873) with NA
+
+
+gcq#223: "My Ass May Be Dumb, But I Ain't No Dumbass." (Jackie Brown)

@@ -1,0 +1,21 @@
+# Folders
+manuals
+test
+pres
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Files
+**.png
+**.cube
+./2\ -\ Working\ with\ PyMOL/*.cif
+./2\ -\ Working\ with\ PyMOL/*.pdb
+./2\ -\ Working\ with\ PyMOL/*.sdf
+./3\ -\ Chemoinformatics/*.txt
+./6\ -\ Modeling\ Protein-Ligand\ Complex/*.txt
+./8\ -\ Molecular\ Dynamics/logs/*
+./8\ -\ Molecular\ Dynamics/mdresult/*
+
+
+
+
