@@ -1,8 +1,8 @@
 ;
-;	File 'etane.top' was generated
+;	File 'preet.top' was generated
 ;	By user: leo (1000)
 ;	On host: MS7922
-;	At date: Sat Dec 14 17:05:09 2019
+;	At date: Mon Dec 16 15:05:28 2019
 ;
 ;	This is a include topology file
 ;
@@ -11,9 +11,9 @@
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/leo/ME/HSE/Chem/9
+;	Working dir:  /home/leo/ME/HSE/Chem/9 - Temperature in Molecular Dynamics
 ;	Command line:
-;	  gmx x2top -f etane.gro -o etane.top -ff select
+;	  gmx x2top -f et.gro -o preet.top -ff oplsaa
 ;	Force field was read from the standard GROMACS share directory.
 ;
 
